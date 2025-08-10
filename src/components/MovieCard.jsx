@@ -24,7 +24,7 @@ function MovieCard({ movie }) {
                 {/*Display the movie poster if available; otherwise, show a placeholder*/}
                 {movie?.poster_path ? (
                     <img 
-                        src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} 
+                        src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
                         alt={movie.title || "Movie Poster"} 
                         loading="lazy" //Improve performance by lazy loading images
                     />
