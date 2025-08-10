@@ -1,6 +1,6 @@
 import { createContext, useState, useContext, useEffect } from "react";
 
-//Creating MovieContext
+
 const MovieContext = createContext();
 
 //Custom hook to consume the context easily
