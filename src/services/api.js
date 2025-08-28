@@ -1,5 +1,5 @@
 //API key for TMDb API (Make sure to keep this secure in a production app)
-const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
+const API_KEY =import.meta.env.VITE_TMDB_API_KEY;
 
 //Base URL for the TMDb API
 const BASE_URL = "https://api.themoviedb.org/3";
