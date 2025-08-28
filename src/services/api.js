@@ -8,7 +8,7 @@ const BASE_URL = "https://api.themoviedb.org/3";
  * Fetches popular movies from the TMDb API.
  * @returns {Promise<Array>} A promise that resolves to an array of popular movies.
  */
-console.log("API Key:", API_KEY);
+
 
 export const getPopularMovies = async () => {
     try {
